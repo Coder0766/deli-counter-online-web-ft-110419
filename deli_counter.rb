@@ -36,7 +36,6 @@ end
 
 
 
-
 # def line(array)
 #   customer = x
 #     # (empty queue) beginning of of the day
