@@ -42,8 +42,7 @@ puts "Welcome, #{name}. You are number #{array.count} in line."
 end
 
 def now_serving(katz_deli)
-array
-if array == 0
+if katz_deli.count == 0
 #binding.pry
 puts "There is noboby waiting to be served!" 
 end
