@@ -30,7 +30,7 @@ def line(katz_deli)
     position_in_line << "#{count + 1}. #{katz_deli[count]}"
     count += 1
     end
-   puts "The line is currently " << position_in_line.join(".")
+   puts "The line is currently " << position_in_line.join
   end
 end 
 
