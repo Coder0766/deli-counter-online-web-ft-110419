@@ -30,7 +30,7 @@ def line(katz_deli)
     position_in_line[] << "#{count + 1}. #{katz_deli[count]}"
     count += 1
     end
-     position_in_line << "The line is currently empty." 
+     << "The line is currently empty."  position_in_line
   end
 end 
 
