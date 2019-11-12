@@ -28,7 +28,7 @@ def line(katz_deli)
     position_in_line = []
     while count < katz_deli.count do  
     position_in_line << " #{count + 1}. #{katz_deli[count]}"
-    binding.pry
+    #binding.pry
     count += 1
     end
    puts "The line is currently:" << position_in_line.join
