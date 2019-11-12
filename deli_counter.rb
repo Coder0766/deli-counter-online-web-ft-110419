@@ -36,8 +36,9 @@ def line(katz_deli)
 end 
 
 def take_a_number(array, name)
+  array
   array << name
-puts "Welcome, #{name}. You are number #{katz_deli[count]} in line."
+puts "Welcome, #{name}. You are number #{array.count} in line."
   #binding.pry
 end
 
