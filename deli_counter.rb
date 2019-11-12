@@ -27,10 +27,10 @@ def line(katz_deli)
     count = 0
     position_in_line = []
     while count < katz_deli.count do  
-    position_in_line << "#{count + 1}.  {katz_deli[count] }"
+    position_in_line << "#{count + 1}. #{katz_deli[count] }"
     count += 1
     end
-   puts "The line is currently: " <<position_in_line.join
+   puts "The line is currently: " << position_in_line.join
   end
 end 
 
