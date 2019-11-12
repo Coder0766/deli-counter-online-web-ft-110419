@@ -38,7 +38,7 @@ end
 def take_a_number(array, name)
   array << name
 puts "Welcome, Ada. You are number 1 in line."
-  binding.pry
+  #binding.pry
 end
 
 
