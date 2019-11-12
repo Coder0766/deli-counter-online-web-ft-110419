@@ -19,7 +19,29 @@ end
 
 # def now_serving
 # end
+# Write your code here.
+# build method => use iteration => controllng return values
+# manipulate array
+  #adding array => removing elements =>ect.
 
+# first Thoughts => incrementing count 
+
+require 'pry'
+
+def line(katz_deli)
+  
+  if katz_deli.count == 0 
+    puts "The line is currently empty."
+    else  
+    count = 0
+    position_in_line = []
+    while count < katz_deli.count do  
+    position_in_line[] << "#{count + 1}. #{katz_deli[count]}"
+    count += 1
+        end
+     position_in_line "The line is currently empty." 
+    end
+end 
 
 
 
