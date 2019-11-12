@@ -36,6 +36,7 @@ def line(katz_deli)
 end 
 
 def take_a_number(array, name)
+  array << name
   binding.pry
 end
 
