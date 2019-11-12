@@ -41,4 +41,7 @@ puts "Welcome, #{name}. You are number #{array.count} in line."
   #binding.pry
 end
 
+def now_serving
+end
+
 
